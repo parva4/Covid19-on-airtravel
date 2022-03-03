@@ -67,4 +67,3 @@ msleep %>%
   geom_bar(fill="blue")+
   theme_bw()+
   labs(x="vore type",y="observations")
-  
