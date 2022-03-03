@@ -21,12 +21,6 @@ ggplot()+
   labs(title = "Air Travel Data Comparison-2019 vs 2020 vs 2021")+
   theme_bw()
 
-ggplot()+
-  geom_line(pass19,mapping=aes(Date,Pass_2019,group=1,col="pass19"))+
-  geom_line(pass20,mapping=aes(Date,Pass_2020,group=1,col="pass20"))+
-  geom_line(pass21,mapping=aes(Date,Pass_2021,group=1,col="pass21"))+
-  labs(title = "Air Travel Data Comparison-2019 vs 2020 vs 2021")+
-  theme_bw()
 
 
 
